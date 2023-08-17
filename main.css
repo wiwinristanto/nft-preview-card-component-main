@@ -1,12 +1,113 @@
+:root {
+  /*Primari*/
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  /*Neutral*/
+
+  --main-BG-dark-blue: hsl(217, 54%, 11%);
+  --card-BG-dark-blue: hsl(216, 50%, 16%);
+  --line-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/*Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
 * {
-    padding: 0;
-    margin: 0;
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    min-height: 100vh;
-    
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--main-BG-dark-blue);
+}
+
+.card {
+  background-color: var(--card-BG-dark-blue);
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.img-cube {
+  justify-content: center;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-top: 25px;
+  font-weight: 600;
+  color: var(--White);
+  margin-top: 35px;
+}
+
+.desc {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--Soft-blue);
+}
+
+.price {
+  display: flex;
+  margin-top: 35px;
+}
+
+.pric {
+  display: flex;
+  width: 50%;
+}
+
+.eth {
+  width: 20px;
+}
+
+.ether {
+  color: var(--Cyan);
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.cloker {
+  width: 50%;
+  display: flex;
+}
+
+.cloked {
+  color: var(--Soft-blue);
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.garis {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.avtar {
+}
+
+.cretor {
+  color: var(--Soft-blue);
+  margin-left: 15px;
+}
+
+.name {
+  color: var(--White);
+  margin-left: 10px;
 }
