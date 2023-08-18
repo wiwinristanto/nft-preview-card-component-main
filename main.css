@@ -37,8 +37,7 @@ body {
 }
 
 .img-cube {
-  justify-content: center;
-  border-radius: 15px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -58,6 +57,8 @@ h1 {
 .price {
   display: flex;
   margin-top: 35px;
+  border-bottom: 2px solid var(--Soft-blue);
+  padding-bottom: 25px;
 }
 
 .pric {
@@ -97,9 +98,13 @@ h1 {
   display: flex;
   align-items: center;
   font-size: 20px;
+  margin-top: 30px;
+  font-size: 35px;
 }
 
 .avtar {
+    border: 5px solid var(--White);
+    border-radius: 100%;
 }
 
 .cretor {
